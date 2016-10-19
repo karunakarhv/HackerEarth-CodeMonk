@@ -7,6 +7,9 @@ int main(int argc, char const *argv[]) {
   int base = 2;
 
   cin >> N; //Total No.of.Participants
-  for(i=0;i<((base << N) - 1))
+  for(i=0;i<((base << N) - 1);i++)
+  {
+    cin >>
+  }
   return 0;
 }
