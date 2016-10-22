@@ -6,6 +6,7 @@ int main(int argc, char const *argv[]) {
 
   char char_array[1000000];
   int N, count_hack = 0;
+  int count_h = 0,count_a=0,count_c=0,count_k=0,count_e=0,count_r=0,count_tt=0;
 
   cin >> N;
   for(int i=0; i< N; i++)
@@ -46,9 +47,7 @@ int main(int argc, char const *argv[]) {
        (count_tt==1))
     {
       count_hack++;
-      count_h=0;
-      count_a=0;
-      count_c=0;
+      count_h=0;count_a=0;count_c=0;
       count_k=0;count_e=0;count_r=0;count_tt=0;
     }
   }
